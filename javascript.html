@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script>
+    function mostrar() {
+        document.getElementById("informacion").innerHTML="Hola que tal";
+    };
+    function ocultar() {
+        document.getElementById("informacion").innerHTML="";
+    }
+    function spike() {
+        document.getElementById("imagen").src="spike.webp";
+      function robot() {
+        document.getElementById().src="robot.jpg";
+    }
+    </script>
+</head>
+<body>
+<h2>Javascript</h2>
+<h3>Alertas</h3>
+<p>Al hacer clic en el enlace se abre una ventana</p>
+    <a href="javascript:alert('hola')">Clic aquí</a>
+    <p>Al hacer clic, podemos llamar una funcion</p>
+<button onclick="alert('has hecho clic en el boton')">
+Hazme clic
+</button>
+<h3>Cambiar contenido de la página</h3>
+<p id="informacion"></p>
+<button onclick="mostrar()">Muestra informacion</button>
+<button onclick="ocultar()">Oculta informacion</button>
+
+<h3>Abrir una ventana nueva</h3>
+<p>Para ir a YouTube haz clic <a href="javascript:window.open('https://www.youtube.com')">aquí</a></p>
+<h3>Cambiar imágenes</h3>
+<p id="imagen"></p>
+<button onclick="spike()">spike</button>
+<button onclick="robot()">robot</button>
+<img id="imagen" src="" alt="">
+ 
+</body>
+</html>
